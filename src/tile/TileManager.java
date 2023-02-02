@@ -22,13 +22,13 @@ public class TileManager {
     public void loadTileImages() {
         try {
             tile[0] = new Tile();
-            tile[0].image = ImageIO.read(new File(("res/tile/grass.png")));
+            tile[0].image = ImageIO.read(new File(("res/tile/grass00.png")));
 
             tile[1] = new Tile();
-            tile[1].image = ImageIO.read(new File(("res/tile/earth.png")));
+            tile[1].image = ImageIO.read(new File(("res/tile/road00.png")));
 
             tile[2] = new Tile();
-            tile[2].image = ImageIO.read(new File(("res/tile/water.png")));
+            tile[2].image = ImageIO.read(new File(("res/tile/water00.png")));
 
             tile[3] = new Tile();
             tile[3].image = ImageIO.read(new File(("res/tile/tree.png")));
@@ -40,7 +40,17 @@ public class TileManager {
             tile[5].image = ImageIO.read(new File(("res/tile/wall.png")));
 
             tile[6] = new Tile();
-            tile[6].image = ImageIO.read(new File(("res/tile/door.png")));
+            tile[6].image = ImageIO.read(new File(("res/tile/wall.png")));
+
+            tile[7] = new Tile();
+            tile[7].image = ImageIO.read(new File(("res/tile/water02.png")));
+
+            tile[8] = new Tile();
+            tile[8].image = ImageIO.read(new File(("res/tile/water03.png")));
+
+            tile[9] = new Tile();
+            tile[9].image = ImageIO.read(new File(("res/tile/water04.png")));
+
         }catch (IOException e) {
             e.printStackTrace();
         }

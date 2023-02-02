@@ -5,12 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaac857-df91-4cf5-ae1a-91ec8973dbbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/res/maps/map02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/floor01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/grass00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/grass01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/hut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/road12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/table01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water13.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/tile/TileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/tile/TileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/maps/map02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/maps/map02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/tile/earth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/stairs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/tile/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/tile/wall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/tile/water.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/tilemanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/tilemanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/tilemanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +77,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "G:/Github/COMP229/res/character",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ewen2/Documents/GitHub/COMP229&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
@@ -61,6 +99,7 @@
       <recent name="G:\Github\COMP229\src\obj" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ewen2\Documents\GitHub\COMP229\res\tile" />
       <recent name="G:\Github\COMP229\src" />
     </key>
   </component>
