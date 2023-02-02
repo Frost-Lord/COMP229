@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaac857-df91-4cf5-ae1a-91ec8973dbbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/InputHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/character/idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/maps/map01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/stairs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/tile/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/tilemanager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/main/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/main/GamePanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ewen2/Documents/GitHub/COMP229&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "G:/Github/COMP229/res/character",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Github\COMP229\res\character" />
+      <recent name="G:\Github\COMP229" />
+      <recent name="G:\Github\COMP229\res" />
+      <recent name="G:\Github\COMP229\obj" />
+      <recent name="G:\Github\COMP229\src\obj" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Github\COMP229\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
