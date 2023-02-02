@@ -22,15 +22,15 @@ public class Player extends Entity {
         this.gp = gp;
         this.InputH = InputH;
 
-        DisplayX = gp.screenWidth/2 - (gp.titleSize/2);
-        DisplayY = gp.screenHeight/2 - (gp.titleSize/2);
+        DisplayX = gp.screenWidth/2 - gp.titleSize/2;
+        DisplayY = gp.screenHeight/2 - gp.titleSize/2;
 
         setDefVal();
         GetPlayerIMG();
     }
     public void setDefVal() {
-        WorldX = gp.titleSize *23;
-        WorldY = gp.titleSize *21;
+        WorldX = gp.titleSize * 23;
+        WorldY = gp.titleSize * 21;
         speed = 4;
         direction = "down";
     }
@@ -49,18 +49,32 @@ public class Player extends Entity {
         }
     }
     public void Update() {
+        int prevX = WorldX;
+        int prevY = WorldY;
+
         if(InputH.UpActivated == true) {
             direction = "up";
-            WorldX -= speed;
+            WorldY -= speed;
         } else if(InputH.DownActivated == true) {
             direction = "down";
-            WorldX += speed;
+            WorldY += speed;
         } else if(InputH.LeftActivated == true) {
             direction = "left";
-            WorldY -= speed;
+            WorldX -= speed;
         } else if(InputH.RightActivated == true) {
             direction = "right";
-            WorldY += speed;
+            WorldX += speed;
+        }
+
+        if (WorldX < 0) {
+            WorldX = prevX;
+        } else if (WorldX > gp.WorldWidth - gp.titleSize) {
+            WorldX = prevX;
+        }
+        if (WorldY < 0) {
+            WorldY = prevY;
+        } else if (WorldY > gp.WorldHeight - gp.titleSize) {
+            WorldY = prevY;
         }
     }
     public void draw(Graphics2D g2) {
