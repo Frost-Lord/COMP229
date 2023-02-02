@@ -14,15 +14,23 @@ public class Player extends Entity {
     GamePanel gp;
     InputHandler InputH;
 
+    public final int DisplayX;
+    public final int DisplayY;
+
+
     public Player(GamePanel gp, InputHandler InputH) {
         this.gp = gp;
         this.InputH = InputH;
+
+        DisplayX = gp.screenWidth/2 - (gp.titleSize/2);
+        DisplayY = gp.screenHeight/2 - (gp.titleSize/2);
+
         setDefVal();
         GetPlayerIMG();
     }
     public void setDefVal() {
-        x = 100;
-        y = 100;
+        WorldX = gp.titleSize *23;
+        WorldY = gp.titleSize *21;
         speed = 4;
         direction = "down";
     }
@@ -43,21 +51,19 @@ public class Player extends Entity {
     public void Update() {
         if(InputH.UpActivated == true) {
             direction = "up";
-            y -= speed;
+            WorldX -= speed;
         } else if(InputH.DownActivated == true) {
             direction = "down";
-            y += speed;
+            WorldX += speed;
         } else if(InputH.LeftActivated == true) {
             direction = "left";
-            x -= speed;
+            WorldY -= speed;
         } else if(InputH.RightActivated == true) {
             direction = "right";
-            x += speed;
+            WorldY += speed;
         }
     }
     public void draw(Graphics2D g2) {
-        //g2.setColor(Color.WHITE);
-        //g2.fillRect(x, y, gp.titleSize, gp.titleSize);
         BufferedImage image = null;
 
         switch (direction) {
@@ -74,6 +80,6 @@ public class Player extends Entity {
                 image = right1;
                 break;
         }
-        g2.drawImage(image, x, y, gp.titleSize, gp.titleSize, null);
+        g2.drawImage(image, DisplayX, DisplayY, gp.titleSize, gp.titleSize, null);
     }
 }

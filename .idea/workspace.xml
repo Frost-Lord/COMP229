@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eaac857-df91-4cf5-ae1a-91ec8973dbbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/res/character/idle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/maps/map01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/sand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/stairs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tile/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/tilemanager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/main/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/main/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/entity/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/entity/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/entity/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/main/GamePanel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -15,7 +15,7 @@ public class GamePanel extends JPanel implements Runnable {
     public final int maxScreenCol = 16;
     public final int maxScreenRow = 12;
     public final int screenWidth = titleSize * maxScreenCol;
-    final int screenHeight = titleSize * maxScreenRow;
+    public final int screenHeight = titleSize * maxScreenRow;
 
     int FPS = 60;
 
@@ -23,10 +23,6 @@ public class GamePanel extends JPanel implements Runnable {
     InputHandler InputH = new InputHandler();
     Thread gameThread;
     Player player = new Player(this, InputH);
-
-    int PlayerX = 100;
-    int PlayerY = 100;
-    int PlayerSpeed = 4;
 
     public GamePanel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
