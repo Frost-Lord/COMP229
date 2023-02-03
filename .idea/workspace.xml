@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7eaac857-df91-4cf5-ae1a-91ec8973dbbb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/maps/map02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/res/maps/map02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -21,6 +21,22 @@ public class TileManager {
 
     public void loadTileImages() {
         try {
+
+            String[] imageNames = {
+                    "res/tile/grass00.png",
+                    "res/tile/road00.png",
+                    "res/tile/water00.png",
+                    "res/tile/tree.png",
+                    "res/tile/sand.png",
+                    "res/tile/wall.png",
+                    "res/tile/wall.png",
+                    "res/tile/water02.png",
+                    "res/tile/water03.png",
+                    "res/tile/water05.png",
+                    "res/tile/water06.png",
+                    "res/tile/water04.png"
+            };
+
             tile[10] = new Tile();
             tile[10].image = ImageIO.read(new File(("res/tile/grass00.png")));
 
