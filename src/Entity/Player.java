@@ -30,7 +30,7 @@ public class Player extends Entity {
     }
     public void setDefVal() {
         WorldX = gp.titleSize * 23;
-        WorldY = gp.titleSize * 21;
+        WorldY = gp.titleSize * 8;
         speed = 4;
         direction = "down";
     }
@@ -52,16 +52,16 @@ public class Player extends Entity {
         int prevX = WorldX;
         int prevY = WorldY;
 
-        if(InputH.UpActivated == true) {
+        if(InputH.UpActivated) {
             direction = "up";
             WorldY -= speed;
-        } else if(InputH.DownActivated == true) {
+        } else if(InputH.DownActivated) {
             direction = "down";
             WorldY += speed;
-        } else if(InputH.LeftActivated == true) {
+        } else if(InputH.LeftActivated) {
             direction = "left";
             WorldX -= speed;
-        } else if(InputH.RightActivated == true) {
+        } else if(InputH.RightActivated) {
             direction = "right";
             WorldX += speed;
         }

@@ -21,25 +21,28 @@ public class TileManager {
 
     public void loadTileImages() {
         try {
-
-            String[] imageNames = {
-                    "res/tile/grass00.png",
-                    "res/tile/road00.png",
-                    "res/tile/water00.png",
-                    "res/tile/tree.png",
-                    "res/tile/sand.png",
-                    "res/tile/wall.png",
-                    "res/tile/wall.png",
-                    "res/tile/water02.png",
-                    "res/tile/water03.png",
-                    "res/tile/water05.png",
-                    "res/tile/water06.png",
-                    "res/tile/water04.png"
+            String[] TileNames = {
+                    "res/tile/grass00.png", //10
+                    "res/tile/road00.png", //11
+                    "res/tile/water00.png", //13
+                    "res/tile/tree.png", //14
+                    "res/tile/sand.png", //15
+                    "res/tile/wall.png", //16
+                    "res/tile/wall.png", //17
+                    "res/tile/water02.png", //18
+                    "res/tile/water03.png", //19
+                    "res/tile/water05.png", //20
+                    "res/tile/water06.png", //21
+                    "res/tile/water04.png", //22
+                    "res/tile/water07.png", //23
+                    "res/tile/water08.png", //24
+                    "res/tile/water09.png", //25
+                    "res/tile/hut.png", //25
+                    "res/tile/table01.png" //26
             };
-
-            for (int i = 0; i < imageNames.length; i++) {
+            for (int i = 0; i < TileNames.length; i++) {
                 tile[i + 10] = new Tile();
-                tile[i + 10].image = ImageIO.read(new File(imageNames[i]));
+                tile[i + 10].image = ImageIO.read(new File(TileNames[i]));
             }
 
         }catch (IOException e) {
