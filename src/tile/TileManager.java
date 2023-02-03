@@ -13,7 +13,7 @@ public class TileManager {
 
     public TileManager(GamePanel gp) {
         this.gp = gp;
-        tile = new Tile[10];
+        tile = new Tile[100];
         MapNum = new int[gp.MaxWorldCol][gp.MaxWorldRow];
         loadTileImages();
         LoadMap();
@@ -21,35 +21,41 @@ public class TileManager {
 
     public void loadTileImages() {
         try {
-            tile[0] = new Tile();
-            tile[0].image = ImageIO.read(new File(("res/tile/grass00.png")));
+            tile[10] = new Tile();
+            tile[10].image = ImageIO.read(new File(("res/tile/grass00.png")));
 
-            tile[1] = new Tile();
-            tile[1].image = ImageIO.read(new File(("res/tile/road00.png")));
+            tile[11] = new Tile();
+            tile[11].image = ImageIO.read(new File(("res/tile/road00.png")));
 
-            tile[2] = new Tile();
-            tile[2].image = ImageIO.read(new File(("res/tile/water00.png")));
+            tile[12] = new Tile();
+            tile[12].image = ImageIO.read(new File(("res/tile/water00.png")));
 
-            tile[3] = new Tile();
-            tile[3].image = ImageIO.read(new File(("res/tile/tree.png")));
+            tile[13] = new Tile();
+            tile[13].image = ImageIO.read(new File(("res/tile/tree.png")));
 
-            tile[4] = new Tile();
-            tile[4].image = ImageIO.read(new File(("res/tile/sand.png")));
+            tile[14] = new Tile();
+            tile[14].image = ImageIO.read(new File(("res/tile/sand.png")));
 
-            tile[5] = new Tile();
-            tile[5].image = ImageIO.read(new File(("res/tile/wall.png")));
+            tile[15] = new Tile();
+            tile[15].image = ImageIO.read(new File(("res/tile/wall.png")));
 
-            tile[6] = new Tile();
-            tile[6].image = ImageIO.read(new File(("res/tile/wall.png")));
+            tile[16] = new Tile();
+            tile[16].image = ImageIO.read(new File(("res/tile/wall.png")));
 
-            tile[7] = new Tile();
-            tile[7].image = ImageIO.read(new File(("res/tile/water02.png")));
+            tile[17] = new Tile();
+            tile[17].image = ImageIO.read(new File(("res/tile/water02.png")));
 
-            tile[8] = new Tile();
-            tile[8].image = ImageIO.read(new File(("res/tile/water03.png")));
+            tile[18] = new Tile();
+            tile[18].image = ImageIO.read(new File(("res/tile/water03.png")));
 
-            tile[9] = new Tile();
-            tile[9].image = ImageIO.read(new File(("res/tile/water04.png")));
+            tile[19] = new Tile();
+            tile[19].image = ImageIO.read(new File(("res/tile/water05.png")));
+
+            tile[20] = new Tile();
+            tile[20].image = ImageIO.read(new File(("res/tile/water06.png")));
+
+            tile[21] = new Tile();
+            tile[21].image = ImageIO.read(new File(("res/tile/water04.png")));
 
         }catch (IOException e) {
             e.printStackTrace();
