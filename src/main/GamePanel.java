@@ -2,7 +2,6 @@ package main;
 
 import entity.Player;
 import tile.TileManager;
-
 import javax.swing.JPanel;
 import java.awt.*;
 
